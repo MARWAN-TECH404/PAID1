@@ -96,7 +96,7 @@ plat = platform.version()[14:][:21][::-1].upper()+platform.release()[5:][::-1].u
 xp = plat.replace(' ', '').replace('-', '').replace('#', '').replace(':', '').replace('.', '').replace(')', '').replace('(', '').replace('?', '').replace('=', '').replace('+', '').replace(';', '').replace('*', '').replace('_', '').replace('?', '').replace('  ', '')
 bxd = ""
 bumper = id+bxd+xp
-myweb2 = requests.get(xny).text
+myweb2 = requests.get("https://github.com/MARWAN-TECH404/PAID1/blob/main/Aproval.txt").text
 
 def qsbuy():
 	try:
@@ -151,7 +151,7 @@ def main():
 		create_file()
 	elif menu_opt =='3':
 		xchker()
-		os.system('xdg-open https://github.com/TechQaiser/Qnumber')
+		os.system('xdg-open https://youtube.com/channel/UCEvniQzw5VfxGdpTT4RUf3A')
 		main()
 	elif menu_opt =='4':
 		os.system('rm -rf fb_cookies.txt')
