@@ -151,7 +151,7 @@ def main():
 		create_file()
 	elif menu_opt =='3':
 		xchker()
-		os.system('xdg-open https://github.com/MARWAN-TECH404/PAID1/blob/main/Aproval.txt')
+		os.system('xdg-open https://github.com/TechQaiser/Qnumber')
 		main()
 	elif menu_opt =='4':
 		os.system('rm -rf fb_cookies.txt')
